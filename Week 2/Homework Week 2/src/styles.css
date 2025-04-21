@@ -4,15 +4,9 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  margin: 60px auto;
-  max-width: 800px;
-}
-
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
 }
 
@@ -30,12 +24,9 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
-  padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
 }
 
 .navigation-links {
@@ -88,4 +79,20 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}
+
+.primary-link{
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }

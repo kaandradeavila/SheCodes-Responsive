@@ -21,3 +21,14 @@ h3 {
   margin: 30px auto;
   width: 150px;
 }
+
+@media(max-width: 576px){
+  .challenge-1{
+    text-align: center;
+    color: blue;
+  }
+
+  .challenge-2{
+    display: none;
+  }
+}
